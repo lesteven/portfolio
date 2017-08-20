@@ -1,0 +1,29 @@
+body{
+	text-align: center;
+	margin:0;
+}
+.navBar{
+	background-color:#074054;
+	font-size:20px;
+	padding: 1% 8% 1% 8%;
+	
+}
+nav a{
+	text-decoration: none;
+	color:white;
+	margin:2%;
+}
+a:hover{
+	color:orange;
+}
+@media only screen and (max-width:1050px){
+	.navBar{
+		padding:1%;
+	}
+}
+.right{
+	text-align:left;
+}
+.left{
+	text-align: right;
+}
