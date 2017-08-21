@@ -19,7 +19,8 @@ module.exports = {
   loaders: [
     { test: /\.jsx?$/, exclude: /node_modules/, loader: "babel-loader", 
 		
-    query:{presets:['react','es2015']}}
+    query:{presets:['react','es2015']}},
+    { test: /\.png$/,loader: "file-loader?mimetype=image/png" }
   ]
 }
 };

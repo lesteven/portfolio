@@ -9,13 +9,24 @@ import Home from '../views/home.jsx';
 import About from '../views/about.jsx';
 import Projects from '../views/projects.jsx';
 import Contact from '../views/contact.jsx';
+import GitHubIcon from '../images/github-icon.png';
+import FCCIcon from '../images/fcc.png'
+import LIicon from '../images/linkedin.png'
 
 function NavBar(){
 	return(
 		<Router>
 			<div>
 				<nav className ='navBar'>
-					<a className='nav-left'>hello</a>
+					<a className='nav-left' href="https://github.com/lesteven">
+						<img src={GitHubIcon}/>
+					</a>
+					<a href='https://www.linkedin.com/in/stevennle/'>
+						<img src={LIicon}/>
+					</a>
+					<a href='https://www.freecodecamp.org/lesteven'>
+						<img src={FCCIcon}/>
+					</a>
 					<span className='flex-space'></span>
 					<Link to ='/'>Home</Link>
 					<Link to ='/about'>About</Link>
