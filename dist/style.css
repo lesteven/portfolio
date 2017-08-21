@@ -14,7 +14,8 @@ nav a{
 	padding: 1% 2% 1% 2%;
 }
 a:hover{
-	background-color:#996300;
+	background-color:white;
+	color:#074054;
 }
 .flex-space{
 	flex-grow: 1;
@@ -25,7 +26,17 @@ a:hover{
 .nav-right{
 	margin-right:5%;
 }
-
+nav img{
+	height:22px;
+	background-color: white;
+	border-radius: 45%
+}
+.topDiv{
+	margin:5%;
+}
+.iconList img{
+	padding:4%;
+}
 @media only screen and (max-width:1050px){
 	.nav-left{
 		margin-left:0;
