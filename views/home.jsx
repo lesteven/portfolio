@@ -5,13 +5,11 @@ function Home(){
 		<div className='topDiv'>
 		<h1>Steven Le</h1>
 		<h3>Full Stack Web Development</h3>
-		<p>Javascript, HTML, CSS</p>
-		<p>MERN</p>
-		<p>(MongoDB, Express, React, Node)</p>
-		<p>Redux, Webpack</p>
-		<p>Passport/User Authorization</p>
-		<p>D3/Data Visualization</p>
+		<h4>Front-End:</h4>
+		<p>React, Redux, D3, Passport</p>
 		<p>Jquery, Bootstrap</p>
+		<h4>Back-End:</h4>
+		<p>Node, Express, MongoDB, Mongoose</p>
 		</div>
 	)
 
