@@ -26,10 +26,16 @@ a:hover{
 .nav-right{
 	margin-right:5%;
 }
-img{
+nav img{
 	height:22px;
 	background-color: white;
 	border-radius: 45%
+}
+.topDiv{
+	margin:5%;
+}
+.iconList img{
+	padding:4%;
 }
 @media only screen and (max-width:1050px){
 	.nav-left{

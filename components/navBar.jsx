@@ -10,8 +10,9 @@ import About from '../views/about.jsx';
 import Projects from '../views/projects.jsx';
 import Contact from '../views/contact.jsx';
 import GitHubIcon from '../images/github-icon.png';
-import FCCIcon from '../images/fcc.png'
-import LIicon from '../images/linkedin.png'
+import FCCIcon from '../images/fcc.png';
+import LIicon from '../images/linkedin.png';
+import IconList from './iconList.jsx'
 
 function NavBar(){
 	return(
