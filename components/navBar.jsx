@@ -29,7 +29,7 @@ function NavBar(){
 						<img src={FCCIcon}/>
 					</a>
 					<span className='flex-space'></span>
-					<Link to ='/'>Home</Link>
+					<Link to ='/portfolio'>Home</Link>
 					<Link to ='/about'>About</Link>
 					<Link to ='/projects'>Projects</Link>
 					<Link to ='/contact' className='nav-right'>Contact</Link>
