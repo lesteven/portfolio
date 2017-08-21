@@ -37,10 +37,6 @@ nav img{
 .iconList img{
 	padding:4%;
 }
-.title{
-	color:red;
-	top:20px;
-}
 .flexBox{
 	display:flex;
 }
@@ -49,6 +45,8 @@ nav img{
 }
 .flexBox img{
 	width:300px;
+	border:1px solid #074054;
+	margin-top:3%;
 }
 @media only screen and (max-width:1050px){
 	.nav-left{
