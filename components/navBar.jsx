@@ -30,15 +30,15 @@ function NavBar(){
 					</a>
 					<span className='flex-space'></span>
 					<Link to ='/portfolio'>Home</Link>
-					<Link to ='/about'>About</Link>
-					<Link to ='/projects'>Projects</Link>
-					<Link to ='/contact' className='nav-right'>Contact</Link>
+					<Link to ='/portfolio/about'>About</Link>
+					<Link to ='/portfolio/projects'>Projects</Link>
+					<Link to ='/portfolio/contact' className='nav-right'>Contact</Link>
 				</nav>
 
 				<Route exact path= '/portfolio' component ={Home}/>
-				<Route exact path= '/about' component ={About}/>
-				<Route exact path= '/projects' component ={Projects}/>
-				<Route exact path= '/contact' component ={Contact}/>
+				<Route exact path= '/portfolio/about' component ={About}/>
+				<Route exact path= '/portfolio/projects' component ={Projects}/>
+				<Route exact path= '/portfolio/contact' component ={Contact}/>
 			</div>
 		</Router>
 	)
