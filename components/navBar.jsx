@@ -15,11 +15,12 @@ function NavBar(){
 		<Router>
 			<div>
 				<nav className ='navBar'>
-					<a className = 'right'>hello</a>
-					<Link to ='/' className='left'>Home</Link>
-					<Link to ='/about' className='left'>About</Link>
-					<Link to ='/projects' className='left'>Projects</Link>
-					<Link to ='/contact' className='left'>Contact</Link>
+					<a className='nav-left'>hello</a>
+					<span className='flex-space'></span>
+					<Link to ='/'>Home</Link>
+					<Link to ='/about'>About</Link>
+					<Link to ='/projects'>Projects</Link>
+					<Link to ='/contact' className='nav-right'>Contact</Link>
 				</nav>
 
 				<Route exact path= '/' component ={Home}/>
