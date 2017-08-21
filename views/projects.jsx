@@ -57,13 +57,17 @@ function Projects(){
 			<h1>D3:</h1>
 			<div className='flexBox'>
 				<span className='flex-item'>
-					<a><img src='https://i.imgur.com/IKNJ8Jk.png'/></a>
+					<a href='https://lesteven.github.io/heatmap/'>
+						<img src='https://i.imgur.com/IKNJ8Jk.png'/>
+					</a>
 					<h3>Heatmap</h3>
 					<p>Tech: D3</p>
 					<p>Heat map of land temperature.</p>
 				</span>
 				<span className='flex-item'>
-					<a><img src='https://i.imgur.com/CQvabhw.png'/></a>
+					<a href='https://lesteven.github.io/globe/'>
+						<img src='https://i.imgur.com/CQvabhw.png'/>
+					</a>
 					<h3>Globe</h3>
 					<p>Tech: D3</p>
 					<p>Map of meteorite landings.</p>
